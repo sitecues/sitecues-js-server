@@ -8,7 +8,9 @@ const h2o2 = require('h2o2');
 const hi = require('hapi-hi');
 /* eslint-disable global-require */
 const routes = [
-    require('./lib/route/legacy')
+    require('./lib/route/legacy'),
+    require('./lib/route/default'),
+    require('./lib/route/build')
 ];
 /* eslint-enable global-require */
 

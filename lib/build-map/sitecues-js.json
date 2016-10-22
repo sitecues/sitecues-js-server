@@ -1,0 +1,12 @@
+{
+    "default" : {
+        "branch" : "master",
+        "version" : "latest"
+    },
+    "siteOverride" : {
+        "s-1f9c2da4" : {
+            "branch" : "release-4.2",
+            "version" : "4.2.3"
+        }
+    }
+}
